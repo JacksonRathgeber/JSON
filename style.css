@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	font-family: "verdana";
+	text-shadow: -1px 1px 0 #555, 1px 1px 0 #555, -1px -1px 0 #555, 1px -1px 0 #555;
+}
+
+body {
+	margin: 0px;
+	padding-bottom: 20px;
+	background-color: steelblue;
+}
+
+.full_site {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+}
+
+.titleContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	justify-items: start;
+	align-content: start;
+	align-items: center;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
+
+.title {
+	font-size: 46px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+	letter-spacing: 0.5px;
+	text-shadow: none;
+
+}
+
+.albumContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	height: 40%;
+	margin-top: 20px;
+	marggin-bottom: 20px;
+	background-color: lightsteelblue;
+	border-radius: 30px;
+	outline: 2px solid midnightblue;
+}
+
+.albumText {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	justify-items: start;
+	align-content: start;
+	align-items: start;
+	text-align: left;
+}
+
+.albumTitle {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-left: 4px;
+}
+
+.albumContent {
+	font-size: 18px;
+	font-weight: lighter;
+	padding-left: 4px;
+	letter-spacing: 0.25px;
+
+}
+
+.albumImage {
+	display: flex;
+	justify-content: end;
+	justify-items: end;
+	align-content: end;
+	align-items: end;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+
+	width: 400px;
+}
+
